@@ -1,0 +1,121 @@
+﻿@model IEnumerable<PS_Fatto.Models.Tarefa>
+
+@{
+    ViewData["Title"] = "Lista de Tarefas";
+    decimal totalCusto = Model.Sum(t => t.Custo);
+}
+
+<style>
+    /* Estilização da Tabela Moderna */
+    .table-container {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden; /* Garante que as bordas da tabela sigam o arredondamento do card */
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .table thead {
+        background-color: #2c3e50;
+        color: white;
+    }
+
+    .table thead th {
+        border: none;
+        padding: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 0.5px;
+    }
+
+    .table tbody tr {
+        transition: all 0.2s ease; /* Efeito suave ao passar o mouse */
+    }
+
+    .table tbody tr:hover {
+        background-color: rgba(0,0,0,0.02) !important;
+        transform: scale(1.002);
+    }
+
+    /* Estilização especial para custo alto (Amarelo Suave) */
+    .linha-custo-alto {
+        background-color: #fff9c4 !important; /* Um amarelo mais elegante/pastel */
+    }
+
+    .btn-acao {
+        border-radius: 6px;
+        margin: 0 2px;
+        padding: 5px 10px;
+        transition: 0.3s;
+    }
+
+    .badge-custo {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #2e7d32;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row mb-4 align-items-end">
+        <div class="col">
+            <h2 class="fw-bold text-dark m-0">Minhas Tarefas</h2>
+            <p class="text-muted m-0">Gerencie e organize suas atividades diárias</p>
+        </div>
+        <div class="col-auto">
+            <a asp-action="Create" class="btn btn-success px-4 fw-bold shadow-sm">
+                + Incluir Tarefa
+            </a>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table class="table table-borderless mb-0">
+            <thead>
+                <tr>
+                    <th class="ps-4">@Html.DisplayNameFor(model => model.Nome)</th>
+                    <th>@Html.DisplayNameFor(model => model.Custo)</th>
+                    <th>@Html.DisplayNameFor(model => model.DataLimite)</th>
+                    <th class="text-center">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="@(item.Custo >= 1000 ? "linha-custo-alto" : "") border-bottom">
+                        <td class="ps-4 align-middle fw-semibold text-dark">
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td class="align-middle badge-custo">
+                            R$ @item.Custo.ToString("N2")
+                        </td>
+                        <td class="align-middle text-secondary">
+                            <i class="bi bi-calendar3 me-2"></i>@item.DataLimite.ToString("dd/MM/yyyy")
+                        </td>
+                        <td class="text-center align-middle">
+                            <div class="d-flex justify-content-center">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm btn-acao" title="Editar">✎</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger btn-sm btn-acao" title="Excluir">🗑</a>
+                                
+                                @if (item != Model.OrderBy(t => t.Ordem).First())
+                                {
+                                    <a asp-action="Mover" asp-route-id="@item.Id" asp-route-direcao="subir" class="btn btn-light btn-sm btn-acao border" title="Subir">↑</a>
+                                }
+                                @if (item != Model.OrderBy(t => t.Ordem).Last())
+                                {
+                                    <a asp-action="Mover" asp-route-id="@item.Id" asp-route-direcao="descer" class="btn btn-light btn-sm btn-acao border" title="Descer">↓</a>
+                                }
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr class="bg-light">
+                    <td class="ps-4 py-3"><strong>Investimento Total:</strong></td>
+                    <td colspan="3" class="py-3"><span class="h5 text-primary fw-bold">R$ @totalCusto.ToString("N2")</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+﻿@model PS_Fatto.Models.Tarefa
+
+@{
+    ViewData["Title"] = "Nova Tarefa";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm p-4">
+                <h2 class="text-success text-center">Cadastrar Tarefa</h2>
+                <hr />
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Nome" class="control-label fw-bold"></label>
+                        <input asp-for="Nome" class="form-control" placeholder="Digite o nome da tarefa" />
+                        <span asp-validation-for="Nome" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Custo" class="control-label fw-bold"></label>
+                        <div class="input-group">
+                            <span class="input-group-text">R$</span>
+                            <input asp-for="Custo" class="form-control" type="number" step="0.01" min="0" placeholder="0,00" required />
+                        </div>
+                        <span asp-validation-for="Custo" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="DataLimite" class="control-label fw-bold"></label>
+                        <input asp-for="DataLimite" class="form-control" type="date" />
+                        <span asp-validation-for="DataLimite" class="text-danger"></span>
+                    </div>
+
+                    @* O campo ordem não deve ser preenchido manualmente no Create, 
+                       pois seu Controller já calcula o Max(Ordem) + 1 *@
+                    <input type="hidden" asp-for="Ordem" value="0" />
+
+                    <div class="form-group d-grid gap-2 mt-4">
+                        <input type="submit" value="Salvar Tarefa" class="btn btn-success" />
+                        <a asp-action="Index" class="btn btn-outline-secondary">Voltar para Lista</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
