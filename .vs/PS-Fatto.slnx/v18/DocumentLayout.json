@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-19T14:08:11.602Z",
               "EditorCaption": ""
@@ -99,8 +99,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAmwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T17:23:41.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-08T17:23:41.16Z"
             },
             {
               "$type": "Document",
@@ -160,8 +159,7 @@
               "RelativeToolTip": "Views\\Tarefas\\Index.cshtml",
               "ViewState": "AgIAAGcAAAAAAAAAAAAYwHgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T16:54:20.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-08T16:54:20.869Z"
             },
             {
               "$type": "Document",
