@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "D:\\C\u00F3digo\\PS-Fatto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\views\\tarefas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:views\\tarefas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\views\\tarefas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:views\\tarefas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\views\\tarefas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:views\\tarefas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\migrations\\20260208171251_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:migrations\\20260208171251_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\views\\tarefas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:views\\tarefas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\migrations\\ps_fattocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:migrations\\ps_fattocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-19T22:52:43.362Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -66,124 +51,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "PS_FattoContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Migrations\\PS_FattoContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\PS_FattoContextModelSnapshot.cs",
+              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Migrations\\PS_FattoContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\PS_FattoContextModelSnapshot.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T22:50:16.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-19T14:08:11.602Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\Delete.cshtml",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\Delete.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwCkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T17:51:02.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T17:23:41.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\Edit.cshtml",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\Edit.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwDQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T17:22:50.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\Create.cshtml",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Create.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\Create.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwBkAAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T17:22:40.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20260208171251_InitialCreate.cs",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Migrations\\20260208171251_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260208171251_InitialCreate.cs",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Migrations\\20260208171251_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260208171251_InitialCreate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T17:12:51.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T16:54:44.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tarefas\\Index.cshtml",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Tarefas\\Index.cshtml",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAYwHgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T16:54:20.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Tarefa.cs",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Models\\Tarefa.cs",
-              "RelativeDocumentMoniker": "Models\\Tarefa.cs",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Models\\Tarefa.cs",
-              "RelativeToolTip": "Models\\Tarefa.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T16:35:49.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TarefasController.cs",
-              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Controllers\\TarefasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TarefasController.cs",
-              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Controllers\\TarefasController.cs",
-              "RelativeToolTip": "Controllers\\TarefasController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAtwGYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T16:43:07.193Z"
             }
           ]
         }

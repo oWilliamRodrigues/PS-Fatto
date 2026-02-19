@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PS-Fatto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78153b9fc7edc99120af22d371ca81687c600c19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1650a67be0ec0a3a177baf5360899e188ad1a0d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PS-Fatto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PS-Fatto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
