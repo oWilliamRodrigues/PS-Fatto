@@ -3,12 +3,18 @@ using PS_Fatto.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<PS_FattoContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("PS_FattoContext") ?? throw new InvalidOperationException("Connection string 'PS_FattoContext' not found.")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<PS_FattoContext>();
+    db.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
