@@ -32,6 +32,7 @@ namespace PS_Fatto.Controllers
             if (tarefa.Custo > 99999999.99m)
             {
                 ModelState.AddModelError("Custo", "O valor do custo é muito alto.");
+                tarefa.Custo = 0;
                 return View(tarefa);  
             }
 
@@ -67,6 +68,7 @@ namespace PS_Fatto.Controllers
             if (tarefa.Custo > 99999999.99m)
             {
                 ModelState.AddModelError("Custo", "O valor do custo é muito alto.");
+                tarefa.Custo = 0;
                 return View(tarefa); 
             }
 
