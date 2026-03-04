@@ -32,7 +32,7 @@
 
                     <div class="form-group mb-3">
                         <label asp-for="DataLimite" class="control-label fw-bold"></label>
-                        <input asp-for="DataLimite" class="form-control" type="date" />
+                        <input asp-for="DataLimite" class="form-control" type="date" value="@Model.DataLimite.ToString("yyyy-MM-dd")" />
                         <span asp-validation-for="DataLimite" class="text-danger"></span>
                     </div>
 

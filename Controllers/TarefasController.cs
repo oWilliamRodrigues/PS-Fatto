@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PS_Fatto.Data;
 using PS_Fatto.Models;
@@ -34,9 +29,14 @@ namespace PS_Fatto.Controllers
             if (_context.Tarefa.Any(t => t.Nome == tarefa.Nome))
                 ModelState.AddModelError("Nome", "Já existe uma tarefa com este nome.");
 
+            if (tarefa.Custo > 99999999.99m)
+            {
+                ModelState.AddModelError("Custo", "O valor do custo é muito alto.");
+                return View(tarefa);  
+            }
+
             if (ModelState.IsValid)
             {
-                // Requisito: Novo registro deve ser o último na ordem
                 int proximaOrdem = (_context.Tarefa.Max(t => (int?)t.Ordem) ?? 0) + 1;
                 tarefa.Ordem = proximaOrdem;
 
@@ -63,6 +63,12 @@ namespace PS_Fatto.Controllers
 
             if (_context.Tarefa.Any(t => t.Nome == tarefa.Nome && t.Id != id))
                 ModelState.AddModelError("Nome", "Já existe outra tarefa com este nome.");
+
+            if (tarefa.Custo > 99999999.99m)
+            {
+                ModelState.AddModelError("Custo", "O valor do custo é muito alto.");
+                return View(tarefa); 
+            }
 
             if (ModelState.IsValid)
             {
@@ -94,7 +100,6 @@ namespace PS_Fatto.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // REORDENAÇÃO (Subir/Descer)
         public async Task<IActionResult> Mover(int id, string direcao)
         {
             var tarefa = await _context.Tarefa.FindAsync(id);

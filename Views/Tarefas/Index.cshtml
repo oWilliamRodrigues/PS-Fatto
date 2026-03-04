@@ -6,11 +6,10 @@
 }
 
 <style>
-    /* Estilização da Tabela Moderna */
     .table-container {
         background: white;
         border-radius: 12px;
-        overflow: hidden; /* Garante que as bordas da tabela sigam o arredondamento do card */
+        overflow: hidden; 
         box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     }
 
@@ -29,7 +28,7 @@
     }
 
     .table tbody tr {
-        transition: all 0.2s ease; /* Efeito suave ao passar o mouse */
+        transition: all 0.2s ease;
     }
 
     .table tbody tr:hover {
@@ -37,9 +36,8 @@
         transform: scale(1.002);
     }
 
-    /* Estilização especial para custo alto (Amarelo Suave) */
     .linha-custo-alto {
-        background-color: #fff9c4 !important; /* Um amarelo mais elegante/pastel */
+        background-color: #fff9c4 !important;
     }
 
     .btn-acao {
@@ -73,6 +71,7 @@
         <table class="table table-borderless mb-0">
             <thead>
                 <tr>
+                    <th>@Html.DisplayNameFor(model => model.Id)</th>
                     <th class="ps-4">@Html.DisplayNameFor(model => model.Nome)</th>
                     <th>@Html.DisplayNameFor(model => model.Custo)</th>
                     <th>@Html.DisplayNameFor(model => model.DataLimite)</th>
@@ -84,10 +83,13 @@
                 {
                     <tr class="@(item.Custo >= 1000 ? "linha-custo-alto" : "") border-bottom">
                         <td class="ps-4 align-middle fw-semibold text-dark">
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td class="ps-4 align-middle fw-semibold text-dark">
                             @Html.DisplayFor(modelItem => item.Nome)
                         </td>
                         <td class="align-middle badge-custo">
-                            R$ @item.Custo.ToString("N2")
+                            R$ @item.Custo.ToString("N2", new System.Globalization.CultureInfo("en-US"))
                         </td>
                         <td class="align-middle text-secondary">
                             <i class="bi bi-calendar3 me-2"></i>@item.DataLimite.ToString("dd/MM/yyyy")
