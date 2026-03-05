@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\C\u00F3digo\\PS-Fatto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|d:\\c\u00F3digo\\ps-fatto\\views\\tarefas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B3AC304-FF77-0F5F-3315-1FCD90BEDA2E}|PS-Fatto.csproj|solutionrelative:views\\tarefas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -79,12 +83,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABQAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-03-05T17:07:04.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Tarefas\\Index.cshtml",
               "ToolTip": "D:\\C\u00F3digo\\PS-Fatto\\Views\\Tarefas\\Index.cshtml",
               "RelativeToolTip": "Views\\Tarefas\\Index.cshtml",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFsAAABoAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwFsAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-05T15:44:56.996Z",
               "EditorCaption": ""
