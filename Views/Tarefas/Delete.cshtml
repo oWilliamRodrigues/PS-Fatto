@@ -19,7 +19,7 @@
                         <dd class="col-sm-8 text-dark">@Html.DisplayFor(model => model.Nome)</dd>
 
                         <dt class="col-sm-4 fw-bold">@Html.DisplayNameFor(model => model.Custo)</dt>
-                        <dd class="col-sm-8 text-success">R$ @Model.Custo.ToString("N2")</dd>
+                        <dd class="col-sm-8 text-success">R$ @Model.Custo.ToString("N2", new System.Globalization.CultureInfo("pt-BR"))</dd>
 
                         <dt class="col-sm-4 fw-bold">@Html.DisplayNameFor(model => model.DataLimite)</dt>
                         <dd class="col-sm-8 text-dark">@Model.DataLimite.ToString("dd/MM/yyyy")</dd>
