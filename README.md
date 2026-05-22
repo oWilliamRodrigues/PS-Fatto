@@ -55,4 +55,4 @@ Graças ao uso do **SQLite**, você não precisa configurar um servidor SQL Serv
 * `Data/`: Contexto de acesso ao banco de dados via EF Core.
 
 ---
-Desenvolvido por **[Seu Nome]** para o Processo Seletivo Fatto.
+Desenvolvido por **William Rodrigues** para o Processo Seletivo Fatto.
